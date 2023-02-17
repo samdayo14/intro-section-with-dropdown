@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <a href="#"> <img src="images/logo.svg" class="snap" alt="snap" /></a>
+
+      <nav class="navbar">
+        <ul class="nav-header">
+          <li class="dropdown">
+            Features
+            <img
+              class="arrow"
+              src="images/icon-arrow-down.svg"
+              alt="arrow dropdown"
+            />
+          </li>
+          <div class="menu-content menu-dropdown">
+            <p>
+              <img class="feature-img" src="./images/icon-todo.svg" alt="" />
+              Todo List
+            </p>
+            <p>
+              <img
+                class="feature-img"
+                src="./images/icon-calendar.svg"
+                alt=""
+              />
+              Calendar
+            </p>
+            <p>
+              <img
+                class="feature-img"
+                src="./images/icon-reminders.svg"
+                alt=""
+              />
+              Reminders
+            </p>
+            <p>
+              <img
+                class="feature-img"
+                src="./images/icon-planning.svg"
+                alt=""
+              />
+              Planning
+            </p>
+          </div>
+          <li class="company">
+            Company
+            <img src="images/icon-arrow-down.svg" class="arrow" alt="" />
+          </li>
+          <div class="company-content">
+            <p class="company-text">History</p>
+            <p class="company-text">Our Team</p>
+            <p class="company-text">Blog</p>
+          </div>
+          <li>Careers</li>
+          <li>About</li>
+
+          <div class="logins">
+            <span>Login</span>
+            <button class="register">Register</button>
+          </div>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="main-section">
+      <div class="details">
+        <h1>Make remote work</h1>
+        <p class="title">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="learn-more">Learn more</button>
+        <div class="images">
+          <img src="images/client-meet.svg" alt="" />
+          <img src="images/client-audiophile.svg" alt="" />
+          <img src="images/client-maker.svg" alt="" />
+          <img src="images/client-databiz.svg" alt="" />
+        </div>
+      </div>
+      <div>
+        <img src="images/image-hero-desktop.png" class="logo" alt="" />
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
